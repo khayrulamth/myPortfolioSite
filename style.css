@@ -1,12 +1,64 @@
 body{
-
-    font-family: 'Karla', sans-serif;
-
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
 }
 
+.top-section {
+   
+    height: 500px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.firstIntro,.dreamimgIntro{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+[class$=Intro]{
+    width: 45%;
+    float: left;
+}
 h1{
-    font-size: 50px;
+    font-size: 2.5em;
 }
+
 .name-highlights{
-    color:orange;
+color: orange;
+}
+
+h3{
+    font-size: 1.5em;
+
+}
+p{
+    font-size: 1.125em;
+
+}
+button{
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg,salmon,tomato);
+}
+img{
+    width: 80%;
+    height: 80%;
+    margin-top: 45px;
+    margin-left: 10px;
+
+}
+.big-dream{
+    margin-top: 50px;
+    height: 500px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-bottom: 20px;
+    
 }
