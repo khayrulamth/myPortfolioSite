@@ -16,6 +16,9 @@ body{
     margin-top: 20px;
     margin-left: 50px;
 }
+section{
+    clear: both;
+}
 
 [class$=Intro]{
     width: 45%;
@@ -89,10 +92,11 @@ section.experience-area>div{
     height: 50%;
     border-radius: 5px;
     background-color: white;
+    overflow: auto;
 }
 .SIntro{
     border-left: 7px solid;
-    border-image: linear-gradient(180deg,salmon,tomato) ;
+    border-image: linear-gradient(180deg,rgb(226, 146, 137),tomato) ;
     border-image-slice: 1;
 }
 .JIntro{
